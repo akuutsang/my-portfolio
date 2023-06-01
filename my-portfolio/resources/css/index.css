@@ -1,7 +1,52 @@
 * {
   padding: 0;
   margin: 0;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   text-decoration: none;
+  list-style: none;
+}
+
+header {
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_item {
+  width: 67px;
+  height: 20px;
+  left: 1156px;
+  top: 47px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px;
+}
+
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 45px;
+  width: 70px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.kaze {
+  font-style: italic;
+  font-family: montserrat, sans-serif;
+  text-decoration: double underline;
+  font-weight: 100;
+  font-size: 40px;
 }
