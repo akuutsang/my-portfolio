@@ -8,7 +8,8 @@
 }
 
 header {
-  height: 51px;
+  align-items: center;
+  height: 61px;
   display: flex;
   justify-content: space-between;
   padding-left: 50px;
@@ -18,7 +19,11 @@ header {
 ul {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+
 }
+
+
 
 .nav_item {
   width: 67px;
@@ -37,16 +42,14 @@ ul {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 45px;
+  height: 60px;
+  width: 70px;
+  line-height: 50px;
   width: 70px;
   text-align: center;
   border-radius: 30px;
 }
 
-.kaze {
-  font-style: italic;
-  font-family: montserrat, sans-serif;
-  text-decoration: double underline;
-  font-weight: 100;
-  font-size: 40px;
-}
+
+
+
