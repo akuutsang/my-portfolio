@@ -168,6 +168,7 @@ ul {
   }
 
   .name {
+    text-align: center;
     height: 150px;
     left: 240.01px;
     top: 351px;
@@ -176,7 +177,7 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
-    line-height: 60px;
+    line-height: 70px;
     color: #fff;
   }
 
@@ -198,7 +199,7 @@ ul {
   .btn {
     margin-left: 200px;
     background-color: #c33ccc;
-    width: 86px;
+    width: 130px;
     height: 29px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
