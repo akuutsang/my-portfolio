@@ -84,11 +84,9 @@ ul {
 }
 
 .name {
-  padding-bottom: 100px;
-  width: 150px;
-  height: 200px;
-  left: 240.01px;
-  top: 351px;
+  padding-bottom: 70px;
+  width: 550px;
+  height: 150px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -100,9 +98,7 @@ ul {
 
 .role {
   width: 40vw;
-  height: 540px;
-  left: 235.01px;
-  top: 570px;
+  height: 400px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -129,6 +125,23 @@ ul {
   background: url(/my-portfolio/resources/assets/main/585eb776-849a-48cf-a626-179b2db4e5ce.JPG);
   background-size: cover;
   background-repeat: no-repeat;
+  animation: slidein 1s linear 1;
+  animation-delay: 1s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+@keyframes slidein {
+  0% {
+    transform: translateX(100px);
+    visibility: visible;
+  }
+
+  100% {
+    transform: translateX(0);
+    visibility: visible;
+  }
 }
 
 @media (max-width: 675px) {
@@ -160,19 +173,10 @@ ul {
     justify-content: center;
   }
 
-  /* .first {
-    width: 500px;
-    height: 100vh;
-    padding-top: 70px;
-    padding-bottom: 30px;
-  } */
-
   .name {
     text-align: center;
-    height: 200px;
-    left: 240.01px;
-    top: 351px;
-    padding: 100px 40px 100px 130px;
+    height: 150px;
+    padding-top: 40px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -216,9 +220,7 @@ ul {
     height: 701px;
     left: 804.01px;
     top: 209px;
-    background-color: aqua;
-
-    /* background: url(/my-portfolio/resources/assets/main/585eb776-849a-48cf-a626-179b2db4e5ce.JPG); */
+    background: url(/my-portfolio/resources/assets/main/585eb776-849a-48cf-a626-179b2db4e5ce.JPG);
     background-size: cover;
     background-repeat: no-repeat;
   }
