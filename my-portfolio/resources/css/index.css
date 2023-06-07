@@ -4,21 +4,20 @@
   list-style: none;
 }
 
-:root{
-  --primary-color:#FFFFFF  ;
-  --secondary-color:#000000;
+:root {
+  --primary-color: #fff;
+  --secondary-color: #000;
 }
 
-.dark-theme{
-  --primary-color: #000000 ;
-  --secondary-color: #FFFFFF;
+.dark-theme {
+  --primary-color: #000;
+  --secondary-color: #fff;
 }
 
-body{
-  background-color: var( --primary-color);
+body {
+  background-color: var(--primary-color);
   color: var(--secondary-color);
 }
-
 
 header {
   align-items: center;
@@ -54,7 +53,6 @@ header {
   font-family: lato, sans-serif;
 }
 
-
 @keyframes movedown {
   0% {
     transform: translateY(-100px);
@@ -67,8 +65,7 @@ header {
   }
 }
 
-
-nav{
+nav {
   width: 50vw;
   display: flex;
   flex-direction: row;
@@ -81,11 +78,10 @@ ul {
   justify-content: space-around;
 }
 
-#icon{
+#icon {
   width: 30px;
   cursor: pointer;
 }
-
 
 .nav-link {
   padding: 10px;
@@ -108,10 +104,10 @@ ul {
   display: flex;
   width: 100vw;
   padding: 100px;
-  background-color: var( --primary-color);
+  background-color: var(--primary-color);
 }
 
-.first{
+.first {
   width: 30vw;
   padding: 50px;
 }
@@ -126,7 +122,7 @@ ul {
   font-size: 60px;
   line-height: 70px;
   color: var(--secondary-color);
-  background-color: var( --primary-color);
+  background-color: var(--primary-color);
   text-shadow: 2px 2px #db52ea;
 }
 
@@ -139,8 +135,7 @@ ul {
   font-size: 28px;
   line-height: 35px;
   color: var(--secondary-color);
-  background-color: var( --primary-color);
-
+  background-color: var(--primary-color);
 }
 
 .btn {
@@ -182,7 +177,6 @@ ul {
 }
 
 @media (max-width: 768px) {
-
   nav .nav-list {
     display: grid;
     position: absolute;
@@ -195,7 +189,7 @@ ul {
     transition: 0.6s;
   }
 
-  nav{
+  nav {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -204,7 +198,7 @@ ul {
     width: 30vw;
   }
 
-  #icon{
+  #icon {
     width: 30px;
     cursor: pointer;
     margin: 50px;
@@ -235,7 +229,6 @@ ul {
     font-weight: 700;
     font-size: 60px;
     line-height: 70px;
-
   }
 
   .role {
@@ -274,7 +267,6 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
   }
-
 }
 
 nav .navbar-toggler {
@@ -282,8 +274,6 @@ nav .navbar-toggler {
   height: min-content;
   margin: 18px -10px 0 0;
   cursor: pointer;
-
-
 }
 
 nav .navbar-toggler .bar {
