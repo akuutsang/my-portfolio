@@ -1,2 +1,3 @@
-import { icon } from './dark.js' ;
+import newIcon from './dark.js';
 
+newIcon();
