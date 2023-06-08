@@ -21,7 +21,6 @@ body {
 
 header {
   align-items: center;
-  width: 100vw;
   height: 101px;
   display: flex;
   flex-direction: row;
@@ -151,7 +150,7 @@ ul {
 
 .second {
   padding: 50px;
-  width: 50vw;
+  width: 467px;
   height: 701px;
   left: 804.01px;
   top: 209px;
@@ -177,12 +176,180 @@ ul {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+  header {
+    align-items: center;
+    width: 900px;
+    height: 101px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .logo {
+    align-content: center;
+    height: 45px;
+    left: 107px;
+    top: 34px;
+    font-family: Dancing Script, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    animation: movedown 1s linear 1;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+  }
+
+  .kaze {
+    font-weight: 200;
+    font-style: italic;
+    font-size: 50px;
+    font-family: lato, sans-serif;
+  }
+
+  @keyframes movedown {
+    0% {
+      transform: translateY(-100px);
+      visibility: visible;
+    }
+
+    100% {
+      transform: translateY(0);
+      visibility: visible;
+    }
+  }
+
+  nav {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 40px;
+  }
+
+  ul {
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #icon {
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .nav-link {
+    padding: 10px;
+    height: 20px;
+    left: 904px;
+    top: 47px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+  }
+
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+
+  .main {
+    display: flex;
+    width: 800px;
+    padding: 100px;
+    background-color: var(--primary-color);
+  }
+
+  .first {
+    width: 300px;
+    padding: 50px;
+  }
+
+  .name {
+    padding-bottom: 90px;
+    width: 300px;
+    height: 200px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    text-shadow: 2px 2px #db52ea;
+  }
+
+  .role {
+    padding-bottom: 70px;
+    width: 300px;
+    height: 400px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+  }
+
+  .btn {
+    color: var(--secondary-color);
+    width: 206px;
+    height: 61px;
+    left: 235.01px;
+    top: 826px;
+    background: #c222d4;
+    border-radius: 5px;
+  }
+
+  .second {
+    /* padding-left: 100px; */
+    width: 500px;
+    height: 701px;
+    top: 209px;
+    background: url(/my-portfolio/resources/assets/main/585eb776-849a-48cf-a626-179b2db4e5ce.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slidein 3s linear 1;
+    animation-delay: 3s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+  }
+
+  @keyframes slidein {
+    0% {
+      transform: translateX(100px);
+      visibility: visible;
+    }
+
+    100% {
+      transform: translateX(0);
+      visibility: visible;
+    }
+  }
+}
+
+@media (max-width: 630px) {
+  header {
+    width: 630px;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  }
+
   nav .nav-list {
     display: grid;
     position: absolute;
     width: 30vw;
-    height: 70vh;
+    height: 350px;
     top: 75px;
     left: 0;
     transform: translateX(-100%);
@@ -193,10 +360,9 @@ ul {
   nav {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    text-align: right;
     justify-content: space-around;
-    width: 30vw;
+    width: 40vw;
+    height: 50px;
   }
 
   #icon {
@@ -215,16 +381,19 @@ ul {
   }
 
   .main {
+    padding-left: 0%;
     padding-top: 0;
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 650px;
   }
 
   .name {
+    width: 500px;
+    align-items: center;
     text-align: center;
-    height: 150px;
-    padding-top: 40px;
+    height: 100px;
+    padding-top: 0;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -237,7 +406,6 @@ ul {
     left: 235.01px;
     top: 570px;
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 28px;
     line-height: 42px;
