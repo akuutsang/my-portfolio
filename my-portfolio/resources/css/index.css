@@ -49,7 +49,7 @@ header {
   font-weight: 200;
   font-style: italic;
   font-size: 50px;
-  font-family: lato, sans-serif;
+  font-family: Tilt Prism, sans-serif;
 }
 
 @keyframes movedown {
@@ -208,7 +208,7 @@ ul {
     font-weight: 200;
     font-style: italic;
     font-size: 50px;
-    font-family: lato, sans-serif;
+    font-family: Tilt Prism, sans-serif;
   }
 
   @keyframes movedown {
@@ -243,7 +243,7 @@ ul {
   }
 
   .nav-link {
-    padding: 10px;
+    padding: 7px;
     height: 20px;
     left: 904px;
     top: 47px;
