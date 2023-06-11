@@ -15,9 +15,14 @@
 <body>
 
     <!-- header section -->
-    
     <header>
-        <div class="logo"> <span class="kaze">K</span>aze</div> 
+        <div class="left">
+            <div class="digital-clock">
+                <span class="hour"></span>:<span class="minute"></span>:<span class="seconds">:</span>
+            </div>
+            <div class="logo"> <span class="kaze">K</span>aze</div> 
+        </div>
+        
         <input type="checkbox" id="toggle">
         <nav>
           <label class="navbar-toggler" for="toggle">
@@ -31,14 +36,30 @@
               <div class="nav-item"><a class="nav-link">About</a></div>
               <div class="nav-item"> <a class="nav-link">Contact</a></div>
           </ul>
+          <img src="/my-portfolio/resources/assets/theme-icons/moon.png" id="icon">
         </nav>
     </header>
     
     <!-- main section -->
+    <div class="main">
+        <div class="first">
+                <p class="name"> Hello, I am Winnie Kaze </p>
+                <p class="role">I am a front-end developer, I enjoy creating pixel perfect designs
+                    with a user friendly interface and web animations, I can provide clean code
+                    and make the website more interactive ensuring user
+                    functionality with responsive design on any type of device.
+                </p>
+                <button class="btn"> Let's talk</button>
+        </div>
+        <div class="second">
+            <div class="image">
+            </div>
+        </div>
+    </div>
+
     <!-- projects section-->
     <!-- contact section -->
     <!-- footer section -->
-    
 
     <script type="module" src="/my-portfolio/resources/js/index.js"></script>
 </body>
