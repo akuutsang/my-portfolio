@@ -24,7 +24,7 @@ const data = [
   {
     name: 'Capstone project',
     description: 'A collaborative work',
-    Image: '',
+    image: '/my-portfolio/resources/assets/projects/capstone.JPG',
     link: 'https://phildeoner.github.io/Capstone-Project/index.html',
   },
 
