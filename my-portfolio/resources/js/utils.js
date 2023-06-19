@@ -43,14 +43,17 @@ function externalCards() {
     const box = document.createElement('div');
     box.classList = 'boxes';
     const boxItem = `
-                <img class= "img" src="${data[i].image}" alt="">
-                <h5>${data[i].name}</h5>
-                <h6>${data[i].description}</h6>
-                <div class="info">
-                <a class="click" href="${data[i].link}">click for more</a>
+        
+        <div class="box-item">  
+             <img class= "img" src="${data[i].image}" alt="">
+              <h5>${data[i].name}</h5>
+              <h6>${data[i].description}</h6>
+              <div class="info">
+                <a class="click" href="${data[i].link}">click here</a>
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 <p class="lang"> Html, Css, JavaScript</p>
-                </div>
+              </div>
+        </div>
                 `;
 
     box.innerHTML += boxItem;
