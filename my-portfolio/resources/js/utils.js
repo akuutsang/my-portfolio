@@ -37,7 +37,7 @@ const data = [
 
 ];
 
-function card() {
+function externalCards() {
   data.forEach((element, i) => {
     const projects = document.querySelector('.projects');
     const box = document.createElement('div');
@@ -58,4 +58,4 @@ function card() {
   });
 }
 
-export default card;
+export default externalCards;
