@@ -299,7 +299,7 @@ i {
 }
 
 .Expertise{
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   width: 100vw;
   height: 100vh;
 }
@@ -312,6 +312,14 @@ i {
     font-size: xx-large;
     font-family: "Montserrat", sans-serif;
     padding-top: 10px;
+    color: var(--primary-color);
+}
+
+.languages{
+  background-color: var(--primary-color);
+  width: 60vw;
+  height: 70vh;
+
 }
 
 @media (max-width: 900px) {
