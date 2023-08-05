@@ -179,24 +179,18 @@ ul {
 
 @media (min-width:901px) {
   
-
-  .prev{
-    height: 100vh;
+  .prev-title{
+    margin-bottom: 20px;
   }
   
-  .prev-section{
-    text-align: center;
-    font-size: 50px;
-    font-family: Lato, sans-serif ;
-  }
-  
-  .projects {
+  .projects{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    height: 40vh;
-    margin: 30px;
-  } 
+    align-items: center;
+    height: 600px;
+    border-bottom: 5px solid black;
+  }
+  
   
   .title {
     width: 50vw;
@@ -207,7 +201,7 @@ ul {
   }
   
   .pro {
-    height:900px;
+    height:650px;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -226,12 +220,6 @@ ul {
     color: var(--secondary-color);
   }
   
-  .projects{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    height: 600px;
-  }
   
   .box-item { 
     height: 30vh ;
@@ -256,75 +244,21 @@ ul {
     background-color:#c222d4 ;
     visibility: hidden;
   }
-  
-  .lang {
-    width: 200px;
-    height: 27px;
-    left: 1014.01px;
-    top: 2709px;
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 15px;
-  }
-  
+   
   .Expertise{
-    background-color: var(--secondary-color);
-    width: 100vw;
-    height: 100vh;
+    height: 80vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .heading{
-      align-items: center;
-      width: 100vw;
-      height: 30vh;
-      display: flex;
-      justify-content: center;
-      font-weight:900;
-      font-size: xx-large;
-      font-family: "Montserrat", sans-serif;
-      padding-top: 10px;
-      color: var(--primary-color);
-  }
-  
-  .languages{
-    display: flex;
-    background-color: var(--primary-color);
-    width: 60vw;
-    height: 70vh;
-  }
-  
-  .main-lang{
-    height:500px;
-    background-color: aqua;
-    width: 30vw;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
+    background-image: url(/my-portfolio/resources/assets/image/pexels-henry-&-co-1939485.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .skills{
+    
   }
   
-  .h3-lang{
-    font-size: xx-large;
-    text-decoration: underline;
-    text-align: center;
-    padding-bottom: 20px;
-    color: var(--secondary-color);
-  }
-  .main-skills{
-    height:500px;
-    width: 30vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .langs{
-    display: flex;
-    flex-direction: column;
-  }
+
 }
 
 @media (max-width: 900px) {
@@ -683,6 +617,7 @@ ul {
     background-repeat: no-repeat;
   }
 
+
   .prev-section{
     text-align: center;
     font-size: 50px;
@@ -700,7 +635,7 @@ ul {
   }
 
   .projects.open {
-    height: 1400px;
+    height: 1700px;
     overflow: auto;
   } 
 
@@ -711,22 +646,14 @@ ul {
     background-color:#c222d4 ;
     visibility: visible;
   }
-  
-  .title {
-    width: 50vw;
-    margin: 15px;
-    padding-left: 100px;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-  }
-  
+
   .pro {
-    height:1700px;
     width: 100vw;
     display: flex;
     flex-direction: column;
     background-color: var(--primary-color);
-    color: var(--secondary-color);   
+    color: var(--secondary-color);  
+    padding-top: 200px; 
   }
   
   .prev-title{
@@ -737,6 +664,7 @@ ul {
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
+    padding-bottom: 40px;
     background-color: var(--primary-color);
     color: var(--secondary-color);
   }
@@ -751,8 +679,6 @@ ul {
     border: 5px solid black;
     padding: 20px;
   }
-  
-  
 
   .click {
     text-align: center;
@@ -812,7 +738,6 @@ ul {
 
   }
 
-
   .lang {
     width: 200px;
     height: 27px;
@@ -828,8 +753,7 @@ ul {
   i {
     font-size: 8px;
     padding: 2px;
-  }
-
+  } 
   
 } 
 
